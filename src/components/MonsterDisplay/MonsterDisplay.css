@@ -1,0 +1,20 @@
+.stat_container {
+    display: flex;
+    align-items: center;
+}
+
+.stat {
+    width: 100%;
+    text-align: center;
+}
+
+.stat p {
+    text-transform: uppercase;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+

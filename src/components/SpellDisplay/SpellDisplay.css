@@ -1,0 +1,20 @@
+.display {
+    background-color: aliceblue;
+}
+
+h1 { 
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+
+.ResItem {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-align: left;
+    height: 30px;
+    width: 100%;
+    border: none;
+}
+
+.ResItem:hover {
+    background-color: rgb(75, 74, 74);
+}

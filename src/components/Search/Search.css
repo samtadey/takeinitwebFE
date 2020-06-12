@@ -1,0 +1,48 @@
+
+/* .resultCon {
+    margin-top: 10px;
+    background-color: greenyellow;
+    max-height: 200px;
+    overflow: scroll;
+    float: right;
+} */
+
+.container {
+    padding: 5px;
+    background-color: darkmagenta;
+}
+
+.left {
+    background-color: red;
+    display: inline-block;
+    width: 20%;
+}
+
+/* 
+
+The right div lies within the container div
+width was 78% originally, with this div and pos: absolute it overflowed
+set to 63% as a quick fix to keep it within the container div
+
+*/
+.right {
+    background-color: indianred;
+    display: inline-block;
+    width: 63%;
+    position: absolute;
+}
+
+.results {
+    overflow: scroll;
+    max-height: 200px;
+    width: 30%;
+    background-color: rgb(34, 34, 34);
+}
+
+.dropdown {
+    width: 95%;
+}
+
+.search {
+    width: 99%;
+}
